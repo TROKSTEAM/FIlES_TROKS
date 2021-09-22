@@ -2,8 +2,6 @@ local function games(msg)
 local text = msg.content_.text_
 if text == 'الالعاب' and database:get(bot_id..'Lock:Games'..msg.chat_id_) then
 Text_Games = [[
-if text == 'الالعاب' or text == 'اللعبه' and database:get(bot_id..'Lock:Games'..msg.chat_id_) then
-Text_Games = [[
 ※︙ قائمه الالعاب لديك ↓
 ٴ---------------------------------------------
 ※︙ لعبة المختلف <> المختلف
